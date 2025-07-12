@@ -1,0 +1,22 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# IDEs
+.vscode/
+.vs/
+
+# Archivos generados
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
