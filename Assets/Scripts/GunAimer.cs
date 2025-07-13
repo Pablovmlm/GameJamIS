@@ -6,43 +6,38 @@ using UnityEngine;
 
 public class GunAimer : MonoBehaviour
 {
-    [SerializeField] private Transform      spritePivot;   // ← GunPivot, pivote del arma
-    [SerializeField] private SpriteRenderer bodySprite;    // ← SpriteRenderer del cuerpo
-
-    private Vector3 rightHandOffset;                       // desplazamiento local original
+    [SerializeField] private SpriteRenderer bodySprite;    // arrástrale el sprite del cuerpo
+    private Vector3 rightHandOffset;                       // posición local cuando mira a la derecha
 
     void Awake()
     {
-        if (spritePivot == null) spritePivot = transform;
-
-        // Guarda la posición local que tiene el pivote cuando el personaje mira a la DERECHA
-        rightHandOffset = spritePivot.localPosition;       
+        rightHandOffset = transform.localPosition;         // Gun está en la mano DERECHA
     }
 
     void Update()
     {
-        /* 1. Calcular dirección al ratón y rotar el arma */
-        Vector2  mouseWorld  = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2  direction   = mouseWorld - (Vector2)spritePivot.position;
-        float    angle       = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        // 1. Dirección al ratón
+        Vector2 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 dir        = mouseWorld - (Vector2)transform.position;
+        float   angle      = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-        spritePivot.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
-        /* 2. ¿Estamos mirando a la izquierda? */
-        bool lookingLeft = direction.x < 0f;
+        // 2. ¿Miramos a la izquierda?
+        bool lookingLeft = dir.x < 0f;
 
-        /* 3. Voltear SOLO la Y del arma (para que no quede boca abajo) */
-        Vector3 scale = spritePivot.localScale;
-        scale.y = lookingLeft ? -Mathf.Abs(scale.y) :  Mathf.Abs(scale.y);
-        spritePivot.localScale = scale;
+        // 3. Voltear SOLO el eje Y del arma
+        Vector3 sc = transform.localScale;
+        sc.y = lookingLeft ? -Mathf.Abs(sc.y) :  Mathf.Abs(sc.y);
+        transform.localScale = sc;
 
-        /* 4. Mover el pivote al lado correcto del cuerpo */
-        //  Si el cuerpo se voltea, ponemos la X negativa.
-        Vector3 newOffset = rightHandOffset;
-        newOffset.x = lookingLeft ? -rightHandOffset.x :  rightHandOffset.x;
-        spritePivot.localPosition = newOffset;
+        // 4. Colocar el arma al otro costado
+        Vector3 pos = rightHandOffset;
+        pos.x = lookingLeft ? -rightHandOffset.x : rightHandOffset.x;
+        transform.localPosition = pos;
 
-        /* 5. Voltear el cuerpo */
+        // 5. Voltear cuerpo
         bodySprite.flipX = lookingLeft;
     }
 }
+

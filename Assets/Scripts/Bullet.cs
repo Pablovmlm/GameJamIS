@@ -4,18 +4,25 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [HideInInspector] public int damage; // lo rellena Weapon.Shoot
+    public float lifeTime = 2f;
 
-    public float lifetime = 2f;
+    void Start() => Destroy(gameObject, lifeTime);
 
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D(Collider2D col)
     {
-        Destroy(gameObject, lifetime);
-    }
-
-    // Update is called once per frame
-    void OCollisionEnter2D(Collision2D collision)
-    {
-        Destroy(gameObject);
+        // Detectamos si el objeto colisionado tiene un componente Enemy
+        Enemy enemy = col.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage); // Le restamos vida al enemigo
+            Destroy(gameObject);       // Destruye la bala
+        }
+        else
+        {
+            // Opcional: destruye la bala si choca con otra cosa, por ejemplo paredes
+            Destroy(gameObject);
+        }
     }
 }
+
