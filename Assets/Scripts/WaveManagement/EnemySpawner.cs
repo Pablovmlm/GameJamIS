@@ -4,53 +4,52 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [Header("Prefabs a spawnear")]
-    [SerializeField] private Enemy[] enemyPrefabs;        // arrastra Slime, Goblin…
+    [SerializeField] private Transform[] spawnPoints;
 
-    [Header("Puntos de spawn")]
-    [SerializeField] private Transform[] spawnPoints;     // arrastra SpawnPoint_A/B/C
+    int  aliveCount;
+    public int  AliveCount  => aliveCount;
 
-    [Header("Parámetros")]
-    [SerializeField] private float firstDelay   = 2f;     // espera al empezar
-    [SerializeField] private float spawnInterval = 5f;    // cada cuánto tiempo
-    [SerializeField] private int   maxAlive     = 10;     // límite simultáneo
+    bool isSpawning;
+    public bool IsSpawning  => isSpawning;
 
-    private int aliveCount;
+    Coroutine spawnRoutine;
 
-    void Start()
+    /* ——— llamado por WaveManager ——— */
+    public void StartSpawning(WaveData wave)
     {
-        StartCoroutine(SpawnLoop());
+        if (spawnRoutine != null) StopCoroutine(spawnRoutine);
+        spawnRoutine = StartCoroutine(SpawnWave(wave));
     }
 
-    IEnumerator SpawnLoop()
+    IEnumerator SpawnWave(WaveData wave)
     {
-        yield return new WaitForSeconds(firstDelay);
+        isSpawning = true;
 
-        while (true)
+        foreach (var entry in wave.enemies)
         {
-            if (aliveCount < maxAlive)
-                SpawnOne();
-
-            yield return new WaitForSeconds(spawnInterval);
+            for (int i = 0; i < entry.amount; i++)
+            {
+                Spawn(entry.prefab);
+                yield return new WaitForSeconds(wave.spawnInterval);
+            }
         }
+
+        isSpawning = false;
     }
 
-    void SpawnOne()
+    void Spawn(Enemy prefab)
     {
-        // 1. Elegir prefab y punto al azar
-        Enemy prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
-        Transform point = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Transform p = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Enemy e = Instantiate(prefab, p.position, Quaternion.identity);
 
-        // 2. Instanciar
-        Enemy e = Instantiate(prefab, point.position, Quaternion.identity);
-
-        // 3. Contador
         aliveCount++;
-        e.OnDeath += HandleEnemyDeath;     // nos suscribimos al evento de muerte
-    }
-
-    void HandleEnemyDeath()
-    {
-        aliveCount--;
+        e.OnDeath += () =>
+        {
+            aliveCount--;
+            if (aliveCount == 0 && !isSpawning)
+                WaveManager.Instance.OnWaveEnemiesDefeated(); // notifica
+        };
     }
 }
+
+

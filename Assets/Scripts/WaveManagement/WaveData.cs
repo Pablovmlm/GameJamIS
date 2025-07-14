@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaveData : MonoBehaviour
+[CreateAssetMenu(menuName = "Waves/Wave Data", fileName = "New Wave")]
+public class WaveData : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
+    [System.Serializable]
+    public struct Entry
     {
-        
+        public Enemy prefab;
+        public int amount;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Entry[] enemies;
+    public float spawnInterval = 1f;
+    public float duration = 30f;
 }
+
