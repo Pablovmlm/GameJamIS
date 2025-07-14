@@ -11,6 +11,8 @@ public class Weapon : MonoBehaviour
 
     private float nextShotTime;
     private int ammoInClip;
+    bool isReloading;
+
 
     void Awake()
     {
@@ -26,6 +28,7 @@ public class Weapon : MonoBehaviour
 
     void TryShoot()
     {
+        if (isReloading) return;
         if (Time.time < nextShotTime) return;  // cadencia
         if (ammoInClip <= 0) { StartCoroutine(ReloadRoutine()); return; }
 
@@ -55,11 +58,13 @@ public class Weapon : MonoBehaviour
 
     IEnumerator ReloadRoutine()
     {
+        isReloading = true;
         if (audioSource && data.reloadSFX)
             audioSource.PlayOneShot(data.reloadSFX);
 
         yield return new WaitForSeconds(data.reloadTime);
         ammoInClip = data.clipSize;
+        isReloading = false;
     }
 
     /* —— getters para UI ——

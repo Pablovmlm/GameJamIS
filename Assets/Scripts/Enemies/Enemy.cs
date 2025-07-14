@@ -34,7 +34,6 @@ public abstract class Enemy : MonoBehaviour
     public virtual void TakeDamage(int amount)
     {
         currentHealth -= amount;
-        animator.SetTrigger("Hit");
         if (currentHealth <= 0) Die();
     }
 
