@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Pistol
   sprite: {fileID: 840847643, guid: 1b5ef36946479d941902ff71747e37a6, type: 3}
-  damage: 1
+  damage: 3
   fireRate: 5
   clipSize: 8
   reloadTime: 1.2

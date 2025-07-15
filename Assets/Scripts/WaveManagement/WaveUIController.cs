@@ -22,7 +22,7 @@ public class WaveUIController : MonoBehaviour
         finishPanel.SetActive(false);  // Oculto el panel final al inicio
     }
 
-    public void SetWaveText(int wave) => waveLabel.text = $"Oleada {wave}";
+    public void SetWaveText(int wave) => waveLabel.text = $"Wave {wave}";
 
     public void ShowInterwavePanel()
     {

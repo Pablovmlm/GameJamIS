@@ -37,16 +37,9 @@ public class WaveManager : MonoBehaviour
     {
         currentWave++;
 
-        if (currentWave >= waves.Length)
-        {
-            waveInProgress = false;
-            ui.ShowFinishPanel();  // Aquí mostramos el texto y botón final
-            return;
-        }
-
         waveInProgress = false;
         ui.HideInterwavePanel();
-        ui.SetWaveText(currentWave + 1);
+        ui.SetWaveText(currentWave);
 
         Invoke(nameof(BeginSpawning), timeBetweenWaves);
     }
@@ -54,7 +47,7 @@ public class WaveManager : MonoBehaviour
     void BeginSpawning()
     {
         waveInProgress = true;
-        spawner.StartSpawning(waves[currentWave]);
+        spawner.StartSpawning(waves[currentWave - 1]);
     }
 
     /* ——— llamada desde EnemySpawner cuando no queda nadie vivo ——— */
@@ -62,7 +55,14 @@ public class WaveManager : MonoBehaviour
     {
         if (!waveInProgress) return;
         waveInProgress = false;
-        ShowWavePanel();
+        if (currentWave >= waves.Length)
+        {
+            ui.ShowFinishPanel();        
+        }
+        else
+        {
+            ShowWavePanel();             // muestra “Oleada N+1”
+        }
     }
 
     void ShowWavePanel()
@@ -74,6 +74,11 @@ public class WaveManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    void OnDestroy()
+    {
+        if (Instance == this) Instance = null;
     }
 }
 

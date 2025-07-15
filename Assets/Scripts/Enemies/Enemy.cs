@@ -14,6 +14,9 @@ public abstract class Enemy : MonoBehaviour
     protected SpriteRenderer sr;
     protected int currentHealth;
 
+    //Este evento notifica luego al spawner para ssaber si han muerto los enemigos
+    public event System.Action OnDeath;
+
     /* ——— Ciclo de vida ——— */
     protected virtual void Awake()
     {
@@ -38,13 +41,12 @@ public abstract class Enemy : MonoBehaviour
     }
 
 
-    public event System.Action OnDeath;
     
-    protected virtual void Die()
+    
+    public virtual void Die()
     {
         OnDeath?.Invoke();
-        // animator.SetInteger("HP", currentHealth);
-        Destroy(gameObject);              // Aquí pondrías partículas, drop, etc.
+        // Destroy(gameObject);              // Aquí pondrías partículas, drop, etc.
     }
 
 

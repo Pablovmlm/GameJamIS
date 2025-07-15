@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1758513680914966783}
   - component: {fileID: 3088381601566006665}
   - component: {fileID: 1255950026038695233}
+  - component: {fileID: 4138308339637099424}
   m_Layer: 10
   m_Name: AxeHitbox
   m_TagString: Untagged
@@ -46,7 +47,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.05}
+  m_Offset: {x: 0, y: -0.018782116}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -57,7 +58,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.72}
+  m_Size: {x: 0.34, y: 0.49870104}
   m_EdgeRadius: 0
 --- !u!114 &1255950026038695233
 MonoBehaviour:
@@ -72,6 +73,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &4138308339637099424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217935158422124774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0b5cb041b6e1f469ffe3822eaf13b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 0, b: 0, a: 0.8}
 --- !u!1 &4752733410177880149
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +210,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: b278a480610d4414189544209005f462, type: 2}
   animator: {fileID: 676630203}
-  axeHitbox: {fileID: 3088381601566006665}
+  axeHitbox: {fileID: 1255950026038695233}
+  axeHit: {fileID: 1758513680914966783}
   stopRange: 0.6
   attackRate: 1
 --- !u!61 &-1737620331091114992
