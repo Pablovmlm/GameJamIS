@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1b5ef36946479d941902ff71747e37a6
+guid: 98dd2f7c1d9b3d340b71ec47bcf2c084
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -43,15 +43,15 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 2
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,280 +105,1141 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: guns_0
+      name: Keyboard Letters and Symbols_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3d9264e2d9b40349b08ac217d03934e
-      internalID: -1228114414
+      spriteID: 6ffb58246fbff6a438c50400e70b2e68
+      internalID: -64827759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_1
+      name: Keyboard Letters and Symbols_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f54af2d161065f146825b989b933fa72
-      internalID: 410216128
+      spriteID: 57b521f4c0065e04b995e17a8b98537e
+      internalID: -1283228702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_2
+      name: Keyboard Letters and Symbols_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99e443478b7925d4fbf80a3c7991b6e2
-      internalID: -747474375
+      spriteID: e215d68f043bdd343a117b3d9f2d25bc
+      internalID: 903562208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_3
+      name: Keyboard Letters and Symbols_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a678e966d1761844d993ce8d6c731819
-      internalID: -682058672
+      spriteID: d3d0e6b6d5920e2419bade50a64f2b0f
+      internalID: -106395957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_4
+      name: Keyboard Letters and Symbols_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3794a6463081ed48a0ac529e13a919b
-      internalID: -421177678
+      spriteID: 7228137c471638043a288681bdd12366
+      internalID: -1052236101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_5
+      name: Keyboard Letters and Symbols_5
       rect:
         serializedVersion: 2
         x: 80
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b3f63052e613c4fa37a8cd7e92e085
-      internalID: 95918401
+      spriteID: e6fc0971279061b44a9b26b2a13a281f
+      internalID: -899136150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_6
+      name: Keyboard Letters and Symbols_6
       rect:
         serializedVersion: 2
         x: 96
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 637978793ac860642842413d2dbb3c2d
-      internalID: -1602071699
+      spriteID: 9bffc4ea1acef7d4fac2acfc981eaaf8
+      internalID: -49543146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_7
+      name: Keyboard Letters and Symbols_7
       rect:
         serializedVersion: 2
         x: 112
-        y: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49e2a8eb4f41b0e4a8c2c0c384d823c2
-      internalID: 1279748282
+      spriteID: 87b530d2fd90c6242b367d48c3fc2d19
+      internalID: 1152251305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_8
+      name: Keyboard Letters and Symbols_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 112
+        x: 0
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da1f0194ceda6a34790060e025cbc58b
-      internalID: 277647788
+      spriteID: d2c699ce89b3b06498a43cb3e3e5067e
+      internalID: -1702322630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_9
+      name: Keyboard Letters and Symbols_9
       rect:
         serializedVersion: 2
-        x: 144
-        y: 112
+        x: 16
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1044e9434f07624b98cb871f16df7a3
-      internalID: -98699884
+      spriteID: 2ce6d14c7fe238040955f97d30a86654
+      internalID: -713358330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_10
+      name: Keyboard Letters and Symbols_10
       rect:
         serializedVersion: 2
-        x: 160
-        y: 112
+        x: 32
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dba5e5fa00fa20047bdcc1e593bc154d
-      internalID: 1126722803
+      spriteID: 1037b21366129234fa5b98fb4f409633
+      internalID: -980256460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_11
+      name: Keyboard Letters and Symbols_11
       rect:
         serializedVersion: 2
-        x: 176
-        y: 112
+        x: 48
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 298daf0739a9c24458ef2acf1320dcd0
-      internalID: -588511727
+      spriteID: a5eab6747dc0b55449322114115854bf
+      internalID: -401778944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_12
+      name: Keyboard Letters and Symbols_12
       rect:
         serializedVersion: 2
-        x: 192
-        y: 112
+        x: 64
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f7d947eda6cf6241838527bac23e011
-      internalID: -1761724488
+      spriteID: 563492392916dd340942c3b6168db167
+      internalID: 542212666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_13
+      name: Keyboard Letters and Symbols_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1caa5e857a66649a2462aed6ad27f3
+      internalID: -2079728052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a961ff4209d94cf4cb352a1893f55148
+      internalID: -1489343593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5d1aee596afd44ca63215ae42694e9
+      internalID: -1503346500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bca0a7d1951e64585cc225e208b105
+      internalID: -2015018920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e733f27c7bf904a827faa294f4f6e3
+      internalID: -114210594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dad94e9549a4742bc5e3170bd07bce
+      internalID: -19982460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3474b8a7b13a4094bb8202af0301d32a
+      internalID: 917178299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ecb3465fca2b14a8d30c083bc99242
+      internalID: 577059131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f45b78163263e4ca2da8a794354bd0
+      internalID: 1142554779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0fd0cb674b2f74b9417f8a490993d5
+      internalID: -832319518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c374f24ebee4ebe41ba1a7ba226deacf
+      internalID: 1599351328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7851acbdd78fa9e498e4530bfe915688
+      internalID: -1728651180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9493c0278edf4ae4d8ff646ea94ec3b4
+      internalID: 1448273470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336cdd9689bb397468dd3d4bf9f9cb96
+      internalID: 212358814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757fa741fb74a5849bef5c55054161a0
+      internalID: -1135961591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c03a6de2f6804e41ae5f6e522de5cfa
+      internalID: 2114600117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b443a81af2d86c6409803e9922a4a514
+      internalID: -1498301294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8fd92608c349e41ac2bd8288ab1d56
+      internalID: 1907649771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658534c1b08ea54cabe12bb3adc65c0
+      internalID: 190243166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bc0853648720342856a0f62e7f7bce
+      internalID: -241289210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7779e0064a7e4848a67e3b36e082723
+      internalID: -994200167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba0a47e07756e547849eb05adcd6293
+      internalID: -2057039965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d563e5c01fd3bdc4f84392731676c300
+      internalID: -1651998566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd66aac906c3b248962286d3c51c4a5
+      internalID: 534812823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6bc5d493e0114479899511716fb147
+      internalID: 454030132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921bf8e32b76450459550417ed3c2366
+      internalID: 1750033608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b2905d9dc8ac84998a044eeb9e01c3
+      internalID: -294327440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bb8a373e9611f4f96b76411ab21eb8
+      internalID: 161836880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d31ea930617124ea9a7d3d47bc3c01
+      internalID: -968482475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8765ebf7e75ab094a9de124acc5c582e
+      internalID: 974941416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff11986589e432b44846ed58cb2be286
+      internalID: -43147053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b2e3bc5ebc20041b442cff46ae2b9c
+      internalID: 1449747564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc81c1348c6b6bc42ac0219433bfb991
+      internalID: 1078918806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2da2f91cd05cd74a847e42456cc02cf
+      internalID: -1833269625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce547a27dd02f64887b35adc3f6cdb9
+      internalID: -1622000409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99b8c43e00d5644fa8c1707acce882e
+      internalID: -397442067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c8bad4ba7acf24a93cc12fc7804c61
+      internalID: -1051039461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92107c16200ccd49a23ab4db8751d35
+      internalID: 513588793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1be53eb14767f4e8136efb3924a59d
+      internalID: 2045652237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495ced69f6bbc1844bbb8547526084cd
+      internalID: -1932369990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2d4c8435c8692478f3a1b806e5c526
+      internalID: -1798961006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_54
       rect:
         serializedVersion: 2
         x: 0
@@ -386,20 +1247,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2707b2bfddae8424ba0729ba3859c209
-      internalID: -1369947005
+      spriteID: 4154f0a56bd47864caecfc789e920a84
+      internalID: -1042804345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_14
+      name: Keyboard Letters and Symbols_55
       rect:
         serializedVersion: 2
         x: 16
@@ -407,20 +1268,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee232239a9112f84a8e43c1e63905ba5
-      internalID: 729272488
+      spriteID: 40fe75a3b6fe9b0448e4aab3b5f93a63
+      internalID: 444591920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_15
+      name: Keyboard Letters and Symbols_56
       rect:
         serializedVersion: 2
         x: 32
@@ -428,20 +1289,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10529dd558319f24bb374095a032050c
-      internalID: -1820255683
+      spriteID: de91c53746b13ba448e6dccb97b1985a
+      internalID: -871613616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_16
+      name: Keyboard Letters and Symbols_57
       rect:
         serializedVersion: 2
         x: 48
@@ -449,20 +1310,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ce699c8520fd284c90d38bd0b2ac1d0
-      internalID: 1452993025
+      spriteID: ab96910df9d1e6242b9872158cd685af
+      internalID: 2016373943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_17
+      name: Keyboard Letters and Symbols_58
       rect:
         serializedVersion: 2
         x: 64
@@ -470,20 +1331,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2040bc46b80cbdf499e940525fe6625b
-      internalID: -325798783
+      spriteID: 6ef322a1d70666b47b66998911fdd8b8
+      internalID: 243873169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_18
+      name: Keyboard Letters and Symbols_59
       rect:
         serializedVersion: 2
         x: 80
@@ -491,20 +1352,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 105ef3911aadc064c8b916f427c91988
-      internalID: -828917886
+      spriteID: a730453d1ee708a4eb8a1c59bccfdb53
+      internalID: -1159582274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_19
+      name: Keyboard Letters and Symbols_60
       rect:
         serializedVersion: 2
         x: 96
@@ -512,20 +1373,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1bbcf4802f4ac1449fe4bbc079490e0
-      internalID: -696748618
+      spriteID: 8455f02284eff4e46af8f4c1ad13107b
+      internalID: -466528044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_20
+      name: Keyboard Letters and Symbols_61
       rect:
         serializedVersion: 2
         x: 112
@@ -533,125 +1394,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd53b23b4743d824b99e58c1fd58d6f4
-      internalID: -505027521
+      spriteID: f0663fae8ceb43d449541237dc395b8c
+      internalID: 1962898194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_21
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 062014e2ee3a88d4f81badf8cddddb63
-      internalID: -998127943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_22
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca02db1fd5cf69441ab0fda919c150ee
-      internalID: 1098378829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_23
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b26f9a2a5358db64a80a9f570605bd09
-      internalID: 698178328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_24
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ffa116c03ff6644f97dd994356b5aba
-      internalID: -1453051641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_25
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b39752e8cac18d14a88b5a494ad12ec9
-      internalID: -493344323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_26
+      name: Keyboard Letters and Symbols_62
       rect:
         serializedVersion: 2
         x: 0
@@ -659,20 +1415,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11a38c795d6286c4c93d5999ebec0350
-      internalID: 1716248666
+      spriteID: fc3e963a7270c76449ce4873ffdb673d
+      internalID: -5538625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_27
+      name: Keyboard Letters and Symbols_63
       rect:
         serializedVersion: 2
         x: 16
@@ -680,20 +1436,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d955e9d59e0ccd14abd0cf607cb4774e
-      internalID: 654555941
+      spriteID: 6e8ab515280ba1d4ab47f26b1a6ad44e
+      internalID: 761341295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_28
+      name: Keyboard Letters and Symbols_64
       rect:
         serializedVersion: 2
         x: 32
@@ -701,20 +1457,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2a20d373aa94f042a002a2e792186ce
-      internalID: 1934985972
+      spriteID: 6b0062092a7995c48be8a97c31ca0425
+      internalID: -1291441577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_29
+      name: Keyboard Letters and Symbols_65
       rect:
         serializedVersion: 2
         x: 48
@@ -722,20 +1478,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d150943e9e613e40b16fc1f484750e4
-      internalID: 1715442890
+      spriteID: 4a29007388604ea45ad82bde527b1d3a
+      internalID: 1637004624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_30
+      name: Keyboard Letters and Symbols_66
       rect:
         serializedVersion: 2
         x: 64
@@ -743,20 +1499,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ccf0d94136bfe43b050cc191719639
-      internalID: -152451477
+      spriteID: f9af83fa767a1954886b8dc554f71875
+      internalID: 1058407353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_31
+      name: Keyboard Letters and Symbols_67
       rect:
         serializedVersion: 2
         x: 80
@@ -764,20 +1520,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 921777930b4808445905fcee0d154ae2
-      internalID: -1228482892
+      spriteID: 9fc369c8e812d374fad844cb4a292440
+      internalID: -1889525468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_32
+      name: Keyboard Letters and Symbols_68
       rect:
         serializedVersion: 2
         x: 96
@@ -785,20 +1541,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 750f925cff74f8848a3f1de28bc7b3d4
-      internalID: 1988661508
+      spriteID: db0dbc806e6d7b94081b30fb17fc1c79
+      internalID: 338751654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_33
+      name: Keyboard Letters and Symbols_69
       rect:
         serializedVersion: 2
         x: 112
@@ -806,125 +1562,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 185f098721ce6a9468fc632eb53ad0d1
-      internalID: -1210188214
+      spriteID: 067f5e5e3150f3d458f7f0887b19e2c5
+      internalID: 1480597917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_34
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c517928eaa06bf49a431d23638d4f87
-      internalID: -638426227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_35
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcd838f74dc0e7a42840bb2c440afb5a
-      internalID: 1723481499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_36
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7f71685417bdac4cadcc9faae3be70d
-      internalID: 152534468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_37
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66d446f52b5696d40b7260e4e368074f
-      internalID: -920687470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_38
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9eae504579dc4b5408e71e7bf21011bf
-      internalID: -1826603331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_39
+      name: Keyboard Letters and Symbols_70
       rect:
         serializedVersion: 2
         x: 0
@@ -932,20 +1583,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78c9ca6c845e95340b1b917185c0b7cf
-      internalID: -666893117
+      spriteID: 7cac15bd3e6cb7a439ba8c786dd6ec5e
+      internalID: -1592981159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_40
+      name: Keyboard Letters and Symbols_71
       rect:
         serializedVersion: 2
         x: 16
@@ -953,20 +1604,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1d08e488f1e09a47a6cb15cae99cbe5
-      internalID: 398426054
+      spriteID: 5561db019137f8e4b9fe18410c9ad11b
+      internalID: -1566903977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_41
+      name: Keyboard Letters and Symbols_72
       rect:
         serializedVersion: 2
         x: 32
@@ -974,20 +1625,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eee15ae6da5770c4cb1a69d66adb76e4
-      internalID: 826803265
+      spriteID: 9ec1d55855cae204481f5cf2478af830
+      internalID: 420067520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_42
+      name: Keyboard Letters and Symbols_73
       rect:
         serializedVersion: 2
         x: 48
@@ -995,20 +1646,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8f42c8cb83fb024baf5e2d36ccca09a
-      internalID: -135354795
+      spriteID: 8c8a2a059e75ae64790927fa76a8f465
+      internalID: 662743157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_43
+      name: Keyboard Letters and Symbols_74
       rect:
         serializedVersion: 2
         x: 64
@@ -1016,20 +1667,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c7755f0700eeb141a062e4a72d62df2
-      internalID: 1649636451
+      spriteID: dca142cbee2e4cb4294944f8f9d55c71
+      internalID: -27881046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_44
+      name: Keyboard Letters and Symbols_75
       rect:
         serializedVersion: 2
         x: 80
@@ -1037,20 +1688,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d82ff2e0dd2821b48b72c0ec27b5fb5c
-      internalID: 1530365918
+      spriteID: e692010c9e066414d81b0c9ff17cfee6
+      internalID: 744748665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_45
+      name: Keyboard Letters and Symbols_76
       rect:
         serializedVersion: 2
         x: 96
@@ -1058,20 +1709,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 448d8cc3424b2644c95355ec47cc123f
-      internalID: -1802060440
+      spriteID: ad8bbe38de368104cbe18098aebf7c5f
+      internalID: 841678057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_46
+      name: Keyboard Letters and Symbols_77
       rect:
         serializedVersion: 2
         x: 112
@@ -1079,125 +1730,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d3e76e8f66c78b4b8d670699db20dec
-      internalID: 2006859769
+      spriteID: 8c779f1b45c8adb4598ae3b1a700a6bf
+      internalID: 458841599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_47
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b912c71ed0231e145aa79489fab9ccd2
-      internalID: 542477932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_48
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5824d7a706bf1754e9338193aba814bf
-      internalID: -1653174227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_49
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a672582c57abc4197f4aecfe4b54bd
-      internalID: -391281020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_50
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f9563b595906284f90328c633a2a5b7
-      internalID: -549081219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_51
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcef6ab074c3add4d9cfc047b7fcbcb8
-      internalID: -655200460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_52
+      name: Keyboard Letters and Symbols_78
       rect:
         serializedVersion: 2
         x: 0
@@ -1205,20 +1751,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f08c33677f68af644955e4d3b52c7585
-      internalID: -1140004949
+      spriteID: 1df35e973ff2e3f4b9bde7c9035180c4
+      internalID: -1850216039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_53
+      name: Keyboard Letters and Symbols_79
       rect:
         serializedVersion: 2
         x: 16
@@ -1226,20 +1772,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3616e5f79a38ef345b2f3266868967ca
-      internalID: -1886778769
+      spriteID: a9f6d81ab5a80414891b72832f3d754e
+      internalID: 2055527035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_54
+      name: Keyboard Letters and Symbols_80
       rect:
         serializedVersion: 2
         x: 32
@@ -1247,20 +1793,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf022a6dde286149bc4f5d019c6a688
-      internalID: -834678557
+      spriteID: 3a374827a958c4d4488859dfdd916f50
+      internalID: 906873540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_55
+      name: Keyboard Letters and Symbols_81
       rect:
         serializedVersion: 2
         x: 48
@@ -1268,20 +1814,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 721fc757e00ab4845bfca9589cba7223
-      internalID: -101512387
+      spriteID: 3dc8bb3ecd42ff64e965da5b135c59fa
+      internalID: 1272993676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_56
+      name: Keyboard Letters and Symbols_82
       rect:
         serializedVersion: 2
         x: 64
@@ -1289,20 +1835,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5a1b4b230a26eb4bb4b17e2a1dab742
-      internalID: -987400907
+      spriteID: 2f7f7136664063248811e336bb48c799
+      internalID: -2039727457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_57
+      name: Keyboard Letters and Symbols_83
       rect:
         serializedVersion: 2
         x: 80
@@ -1310,20 +1856,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67a889ece0882dc4085b77eab5c4ddfe
-      internalID: 1730404779
+      spriteID: 0adb4b77a97146742b35b544771746c4
+      internalID: -1564822601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_58
+      name: Keyboard Letters and Symbols_84
       rect:
         serializedVersion: 2
         x: 96
@@ -1331,20 +1877,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43a281849286ad44cb1c88e28f90747b
-      internalID: -1178558359
+      spriteID: 529287ede60b3364299782fbfc774eb2
+      internalID: 43913170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_59
+      name: Keyboard Letters and Symbols_85
       rect:
         serializedVersion: 2
         x: 112
@@ -1352,125 +1898,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b8f003abea487e4da0af4ce605edfb9
-      internalID: -763388181
+      spriteID: 6d98adb97dd73114d943bac888ee8ddb
+      internalID: 302933440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_60
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 552e3d0472ce6c74fb52c43cea1cae11
-      internalID: 662200291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_61
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 648759704fde2d34ea5dd52ede57542d
-      internalID: -488277759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_62
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c7dd85362125c84eb40b77b60dea59b
-      internalID: 232064110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_63
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75333a48ab632fe4bb8832b11e3ad77d
-      internalID: 1269017871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_64
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a52a83fa6c0f3904cab51e37de22e4ac
-      internalID: 730729765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_65
+      name: Keyboard Letters and Symbols_86
       rect:
         serializedVersion: 2
         x: 0
@@ -1478,20 +1919,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217cdab1e71a1db4992ee20d71690407
-      internalID: -513384210
+      spriteID: 325e3064d07a94e45ba5b6d17b85b2ca
+      internalID: -707131332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_66
+      name: Keyboard Letters and Symbols_87
       rect:
         serializedVersion: 2
         x: 16
@@ -1499,20 +1940,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f80f8c12ee7987a43ba326a8ccf86c70
-      internalID: 651561470
+      spriteID: 5b9e83802220e9b4a9d756844024b62e
+      internalID: 35662349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_67
+      name: Keyboard Letters and Symbols_88
       rect:
         serializedVersion: 2
         x: 32
@@ -1520,20 +1961,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2425ddc50ca37fe4a94380c427ddc3aa
-      internalID: -359063846
+      spriteID: 0af98fe716be6dd4a8ade7c51ff3e5e2
+      internalID: 1020742634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_68
+      name: Keyboard Letters and Symbols_89
       rect:
         serializedVersion: 2
         x: 48
@@ -1541,20 +1982,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94f0d8bb9e80f3b43ab6a0c4e32e1cd4
-      internalID: 730742269
+      spriteID: 3d6897e6c088aa849a3e47bb01cba1b4
+      internalID: 1449077454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_69
+      name: Keyboard Letters and Symbols_90
       rect:
         serializedVersion: 2
         x: 64
@@ -1562,20 +2003,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7135bc95be6ba840a8680d72fab55c6
-      internalID: 1313821107
+      spriteID: 4454a93ba8ae4fb4a81fd03b220c7bad
+      internalID: -1014562978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_70
+      name: Keyboard Letters and Symbols_91
       rect:
         serializedVersion: 2
         x: 80
@@ -1583,20 +2024,41 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b9027e82cddbc4468c604efd66c9741
-      internalID: -634591610
+      spriteID: a81465203a25ad44e8358674f2d7579f
+      internalID: -76600728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_71
+      name: Keyboard Letters and Symbols_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e83138746ba3bc49b8f49b08d089f25
+      internalID: 671960964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Letters and Symbols_93
       rect:
         serializedVersion: 2
         x: 112
@@ -1604,125 +2066,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cb65ada1199825499fa4f3f81e587da
-      internalID: -461567974
+      spriteID: cc40cd999872ed948a429bfc308283db
+      internalID: -241436890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_72
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a30144eca68d0d84587db1fa4c55c59b
-      internalID: 934610013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_73
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51aa044b07f6aeb47b9cda1a988d38cc
-      internalID: 442818331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_74
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26dbc06c0ea4ad34186488f7c8d659a3
-      internalID: -952082757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_75
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39cc597fc64985e4eb06a0667b3c7bfd
-      internalID: 406293594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_76
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0830493531382064b9c8b77cc0159c57
-      internalID: -1900263056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_77
+      name: Keyboard Letters and Symbols_94
       rect:
         serializedVersion: 2
         x: 0
@@ -1730,20 +2087,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 902f0b4831982e449848273d1477a4c1
-      internalID: -968497862
+      spriteID: afd9171fdf98a444ca8f67c210da0035
+      internalID: 1211568866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_78
+      name: Keyboard Letters and Symbols_95
       rect:
         serializedVersion: 2
         x: 16
@@ -1751,20 +2108,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad67ec24f4127d46900cc74633ef613
-      internalID: 4316809
+      spriteID: d9691cb98159a0740aaa0457d9224ea4
+      internalID: -1859895436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_79
+      name: Keyboard Letters and Symbols_96
       rect:
         serializedVersion: 2
         x: 32
@@ -1772,20 +2129,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f3abb4d19341924c84ded75f434aacb
-      internalID: -226374250
+      spriteID: 706e825895064b247896f8bf09f81187
+      internalID: 742210409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_80
+      name: Keyboard Letters and Symbols_97
       rect:
         serializedVersion: 2
         x: 48
@@ -1793,20 +2150,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8618d184aeedfb0459732d926444df99
-      internalID: -1711423707
+      spriteID: 428f2be6a3e366a46bbbe62db884b687
+      internalID: 462045611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_81
+      name: Keyboard Letters and Symbols_98
       rect:
         serializedVersion: 2
         x: 64
@@ -1814,20 +2171,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d54a12711aa5a8e4cb24b907572579a1
-      internalID: 1818062657
+      spriteID: 02dfbf1186c39ac4f9cd88f95ba824a4
+      internalID: 2083006846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_82
+      name: Keyboard Letters and Symbols_99
       rect:
         serializedVersion: 2
         x: 80
@@ -1835,20 +2192,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf29e82fc14c4e4fb462ad0917a4bd7
-      internalID: -2065996888
+      spriteID: 20c34d56053221e4ea582e77d350706e
+      internalID: 86987585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_83
+      name: Keyboard Letters and Symbols_100
       rect:
         serializedVersion: 2
         x: 96
@@ -1856,20 +2213,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2acb63e7bc5f1f428f03dcf46f9df7f
-      internalID: 485100435
+      spriteID: b8ceea979445bbe4596893b8f97a9b4e
+      internalID: -1780416576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_84
+      name: Keyboard Letters and Symbols_101
       rect:
         serializedVersion: 2
         x: 112
@@ -1877,104 +2234,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbb75ca9c0e6eba4194c20fec0062185
-      internalID: 273049681
+      spriteID: adcce47b65b2e454687d264facf0c39a
+      internalID: 1501060992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_85
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18a3d5c4600eaa840abfd560a641c81b
-      internalID: -1621191927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_86
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a73363dcfc0b8394b97bd9ebaae37a74
-      internalID: 603252080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_87
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ead16bf817c7bb4895dfcaf7917c298
-      internalID: 738271950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_88
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f27d6dc207d20834493b5154c467cf6d
-      internalID: -1753915957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_89
+      name: Keyboard Letters and Symbols_102
       rect:
         serializedVersion: 2
         x: 0
@@ -1982,20 +2255,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b3cecb67e4427448a8fe73844196902
-      internalID: 840847643
+      spriteID: 1ed9cac7179b27e47b621924dbcb7d59
+      internalID: -1740873566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_90
+      name: Keyboard Letters and Symbols_103
       rect:
         serializedVersion: 2
         x: 16
@@ -2003,20 +2276,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a70f5b2b1228ea44bc06d7ed10cecc0
-      internalID: 1337957532
+      spriteID: 318e16bb9d07dcf46a0d0603b00267b8
+      internalID: -1604385861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_91
+      name: Keyboard Letters and Symbols_104
       rect:
         serializedVersion: 2
         x: 32
@@ -2024,20 +2297,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e9ba10a08d4deb4799154fc8d647482
-      internalID: 1838391225
+      spriteID: e459a213e69c41d4da20935e195e6ca9
+      internalID: 529879040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_92
+      name: Keyboard Letters and Symbols_105
       rect:
         serializedVersion: 2
         x: 48
@@ -2045,20 +2318,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b74c8118c8a495242afc1cbcdaa759ab
-      internalID: 1247697436
+      spriteID: c71499ff26194c24ab390f291d5eb3ec
+      internalID: 67889197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_93
+      name: Keyboard Letters and Symbols_106
       rect:
         serializedVersion: 2
         x: 64
@@ -2066,20 +2339,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43089204389d0b04bb0f3c58aa4c3de1
-      internalID: 570536554
+      spriteID: 1d70dcc9b6445f445b1016064241daca
+      internalID: -387437461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_94
+      name: Keyboard Letters and Symbols_107
       rect:
         serializedVersion: 2
         x: 80
@@ -2087,140 +2360,14 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9c9573ab1cb29f449e13c6df741563b
-      internalID: 76126771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_95
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed81bd1c661a78d4c8fe0dba94bf7480
-      internalID: 611215989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_96
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c282e153087516f4d8547302b9a6676a
-      internalID: 765163030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_97
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c013d1b12dfe53c49ba5f2b657df6189
-      internalID: 1955129846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_98
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 148f3fc20db3f9f45866fc47183870f6
-      internalID: -2080969011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_99
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e755fbb8cc673b349ac78dc825722833
-      internalID: -2091561635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guns_100
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dde59d7fec4af9c418834aab4d39afde
-      internalID: 1661830230
+      spriteID: 884bbb782ec22da49b6629d32784b18e
+      internalID: -114737651
       vertices: []
       indices: 
       edges: []
@@ -2236,107 +2383,114 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      guns_0: -1228114414
-      guns_1: 410216128
-      guns_10: 1126722803
-      guns_100: 1661830230
-      guns_11: -588511727
-      guns_12: -1761724488
-      guns_13: -1369947005
-      guns_14: 729272488
-      guns_15: -1820255683
-      guns_16: 1452993025
-      guns_17: -325798783
-      guns_18: -828917886
-      guns_19: -696748618
-      guns_2: -747474375
-      guns_20: -505027521
-      guns_21: -998127943
-      guns_22: 1098378829
-      guns_23: 698178328
-      guns_24: -1453051641
-      guns_25: -493344323
-      guns_26: 1716248666
-      guns_27: 654555941
-      guns_28: 1934985972
-      guns_29: 1715442890
-      guns_3: -682058672
-      guns_30: -152451477
-      guns_31: -1228482892
-      guns_32: 1988661508
-      guns_33: -1210188214
-      guns_34: -638426227
-      guns_35: 1723481499
-      guns_36: 152534468
-      guns_37: -920687470
-      guns_38: -1826603331
-      guns_39: -666893117
-      guns_4: -421177678
-      guns_40: 398426054
-      guns_41: 826803265
-      guns_42: -135354795
-      guns_43: 1649636451
-      guns_44: 1530365918
-      guns_45: -1802060440
-      guns_46: 2006859769
-      guns_47: 542477932
-      guns_48: -1653174227
-      guns_49: -391281020
-      guns_5: 95918401
-      guns_50: -549081219
-      guns_51: -655200460
-      guns_52: -1140004949
-      guns_53: -1886778769
-      guns_54: -834678557
-      guns_55: -101512387
-      guns_56: -987400907
-      guns_57: 1730404779
-      guns_58: -1178558359
-      guns_59: -763388181
-      guns_6: -1602071699
-      guns_60: 662200291
-      guns_61: -488277759
-      guns_62: 232064110
-      guns_63: 1269017871
-      guns_64: 730729765
-      guns_65: -513384210
-      guns_66: 651561470
-      guns_67: -359063846
-      guns_68: 730742269
-      guns_69: 1313821107
-      guns_7: 1279748282
-      guns_70: -634591610
-      guns_71: -461567974
-      guns_72: 934610013
-      guns_73: 442818331
-      guns_74: -952082757
-      guns_75: 406293594
-      guns_76: -1900263056
-      guns_77: -968497862
-      guns_78: 4316809
-      guns_79: -226374250
-      guns_8: 277647788
-      guns_80: -1711423707
-      guns_81: 1818062657
-      guns_82: -2065996888
-      guns_83: 485100435
-      guns_84: 273049681
-      guns_85: -1621191927
-      guns_86: 603252080
-      guns_87: 738271950
-      guns_88: -1753915957
-      guns_89: 840847643
-      guns_9: -98699884
-      guns_90: 1337957532
-      guns_91: 1838391225
-      guns_92: 1247697436
-      guns_93: 570536554
-      guns_94: 76126771
-      guns_95: 611215989
-      guns_96: 765163030
-      guns_97: 1955129846
-      guns_98: -2080969011
-      guns_99: -2091561635
+      Keyboard Letters and Symbols_0: -64827759
+      Keyboard Letters and Symbols_1: -1283228702
+      Keyboard Letters and Symbols_10: -980256460
+      Keyboard Letters and Symbols_100: -1780416576
+      Keyboard Letters and Symbols_101: 1501060992
+      Keyboard Letters and Symbols_102: -1740873566
+      Keyboard Letters and Symbols_103: -1604385861
+      Keyboard Letters and Symbols_104: 529879040
+      Keyboard Letters and Symbols_105: 67889197
+      Keyboard Letters and Symbols_106: -387437461
+      Keyboard Letters and Symbols_107: -114737651
+      Keyboard Letters and Symbols_11: -401778944
+      Keyboard Letters and Symbols_12: 542212666
+      Keyboard Letters and Symbols_13: -2079728052
+      Keyboard Letters and Symbols_14: -1489343593
+      Keyboard Letters and Symbols_15: -1503346500
+      Keyboard Letters and Symbols_16: -2015018920
+      Keyboard Letters and Symbols_17: -114210594
+      Keyboard Letters and Symbols_18: -19982460
+      Keyboard Letters and Symbols_19: 917178299
+      Keyboard Letters and Symbols_2: 903562208
+      Keyboard Letters and Symbols_20: 577059131
+      Keyboard Letters and Symbols_21: 1142554779
+      Keyboard Letters and Symbols_22: -832319518
+      Keyboard Letters and Symbols_23: 1599351328
+      Keyboard Letters and Symbols_24: -1728651180
+      Keyboard Letters and Symbols_25: 1448273470
+      Keyboard Letters and Symbols_26: 212358814
+      Keyboard Letters and Symbols_27: -1135961591
+      Keyboard Letters and Symbols_28: 2114600117
+      Keyboard Letters and Symbols_29: -1498301294
+      Keyboard Letters and Symbols_3: -106395957
+      Keyboard Letters and Symbols_30: 1907649771
+      Keyboard Letters and Symbols_31: 190243166
+      Keyboard Letters and Symbols_32: -241289210
+      Keyboard Letters and Symbols_33: -994200167
+      Keyboard Letters and Symbols_34: -2057039965
+      Keyboard Letters and Symbols_35: -1651998566
+      Keyboard Letters and Symbols_36: 534812823
+      Keyboard Letters and Symbols_37: 454030132
+      Keyboard Letters and Symbols_38: 1750033608
+      Keyboard Letters and Symbols_39: -294327440
+      Keyboard Letters and Symbols_4: -1052236101
+      Keyboard Letters and Symbols_40: 161836880
+      Keyboard Letters and Symbols_41: -968482475
+      Keyboard Letters and Symbols_42: 974941416
+      Keyboard Letters and Symbols_43: -43147053
+      Keyboard Letters and Symbols_44: 1449747564
+      Keyboard Letters and Symbols_45: 1078918806
+      Keyboard Letters and Symbols_46: -1833269625
+      Keyboard Letters and Symbols_47: -1622000409
+      Keyboard Letters and Symbols_48: -397442067
+      Keyboard Letters and Symbols_49: -1051039461
+      Keyboard Letters and Symbols_5: -899136150
+      Keyboard Letters and Symbols_50: 513588793
+      Keyboard Letters and Symbols_51: 2045652237
+      Keyboard Letters and Symbols_52: -1932369990
+      Keyboard Letters and Symbols_53: -1798961006
+      Keyboard Letters and Symbols_54: -1042804345
+      Keyboard Letters and Symbols_55: 444591920
+      Keyboard Letters and Symbols_56: -871613616
+      Keyboard Letters and Symbols_57: 2016373943
+      Keyboard Letters and Symbols_58: 243873169
+      Keyboard Letters and Symbols_59: -1159582274
+      Keyboard Letters and Symbols_6: -49543146
+      Keyboard Letters and Symbols_60: -466528044
+      Keyboard Letters and Symbols_61: 1962898194
+      Keyboard Letters and Symbols_62: -5538625
+      Keyboard Letters and Symbols_63: 761341295
+      Keyboard Letters and Symbols_64: -1291441577
+      Keyboard Letters and Symbols_65: 1637004624
+      Keyboard Letters and Symbols_66: 1058407353
+      Keyboard Letters and Symbols_67: -1889525468
+      Keyboard Letters and Symbols_68: 338751654
+      Keyboard Letters and Symbols_69: 1480597917
+      Keyboard Letters and Symbols_7: 1152251305
+      Keyboard Letters and Symbols_70: -1592981159
+      Keyboard Letters and Symbols_71: -1566903977
+      Keyboard Letters and Symbols_72: 420067520
+      Keyboard Letters and Symbols_73: 662743157
+      Keyboard Letters and Symbols_74: -27881046
+      Keyboard Letters and Symbols_75: 744748665
+      Keyboard Letters and Symbols_76: 841678057
+      Keyboard Letters and Symbols_77: 458841599
+      Keyboard Letters and Symbols_78: -1850216039
+      Keyboard Letters and Symbols_79: 2055527035
+      Keyboard Letters and Symbols_8: -1702322630
+      Keyboard Letters and Symbols_80: 906873540
+      Keyboard Letters and Symbols_81: 1272993676
+      Keyboard Letters and Symbols_82: -2039727457
+      Keyboard Letters and Symbols_83: -1564822601
+      Keyboard Letters and Symbols_84: 43913170
+      Keyboard Letters and Symbols_85: 302933440
+      Keyboard Letters and Symbols_86: -707131332
+      Keyboard Letters and Symbols_87: 35662349
+      Keyboard Letters and Symbols_88: 1020742634
+      Keyboard Letters and Symbols_89: 1449077454
+      Keyboard Letters and Symbols_9: -713358330
+      Keyboard Letters and Symbols_90: -1014562978
+      Keyboard Letters and Symbols_91: -76600728
+      Keyboard Letters and Symbols_92: 671960964
+      Keyboard Letters and Symbols_93: -241436890
+      Keyboard Letters and Symbols_94: 1211568866
+      Keyboard Letters and Symbols_95: -1859895436
+      Keyboard Letters and Symbols_96: 742210409
+      Keyboard Letters and Symbols_97: 462045611
+      Keyboard Letters and Symbols_98: 2083006846
+      Keyboard Letters and Symbols_99: 86987585
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,35 +1,47 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    [SerializeField] private WeaponData data;
-    [SerializeField] private Transform  firePoint;
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private SpriteRenderer gunSprite;
+    [Header("Datos")]
+    [SerializeField] WeaponAssembler assembler;   // ← arrastra aquí tu assembler
+    [SerializeField] WeaponData fallbackData; // opcional (por si no hay assembler)
 
-    private float nextShotTime;
-    private int ammoInClip;
+    // El WeaponData final que usa el arma en runtime
+    WeaponData data;
+
+    [Header("Referencias escena")]
+    [SerializeField] Transform firePoint;
+    [SerializeField] SpriteRenderer gunSprite;
+    [SerializeField] AudioSource audioSource;
+
+    float nextShotTime;
+    int ammoInClip;
     bool isReloading;
 
-
+    /* ──────────────── INIT ──────────────── */
     void Awake()
     {
+        // 1) Genera el arma combinada o usa la de fallback
+        data = assembler.Build(fallbackData);
+
+        // 2) Aplica sprite y stats
         if (gunSprite) gunSprite.sprite = data.sprite;
         ammoInClip = data.clipSize;
     }
 
+    /* ──────────────── LOOP ──────────────── */
     void Update()
     {
         if (Input.GetButton("Fire1")) TryShoot();
         if (Input.GetKeyDown(KeyCode.R)) StartCoroutine(ReloadRoutine());
     }
 
+    /* ─────────── DISPARO ─────────── */
     void TryShoot()
     {
         if (isReloading) return;
-        if (Time.time < nextShotTime) return;  // cadencia
+        if (Time.time < nextShotTime) return;
         if (ammoInClip <= 0) { StartCoroutine(ReloadRoutine()); return; }
 
         Shoot();
@@ -39,13 +51,9 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
-        
         // proyectil
         var bullet = Instantiate(data.bulletPrefab, firePoint.position, firePoint.rotation);
-        var rb     = bullet.GetComponent<Rigidbody2D>();
-        rb.velocity = firePoint.right * data.bulletSpeed;
-
-        // inyecta daño
+        bullet.GetComponent<Rigidbody2D>().velocity = firePoint.right * data.bulletSpeed;
         bullet.GetComponent<Bullet>().damage = data.damage;
 
         // efectos
@@ -56,9 +64,12 @@ public class Weapon : MonoBehaviour
             audioSource.PlayOneShot(data.shotSFX);
     }
 
+    /* ─────────── RECARGA ─────────── */
     IEnumerator ReloadRoutine()
     {
+        if (isReloading) yield break;
         isReloading = true;
+
         if (audioSource && data.reloadSFX)
             audioSource.PlayOneShot(data.reloadSFX);
 
@@ -67,9 +78,15 @@ public class Weapon : MonoBehaviour
         isReloading = false;
     }
 
-    /* —— getters para UI ——
+    public void RefreshWeapon()                  // <<— llamado tras la tienda
+    {
+        data = assembler.Build(fallbackData);
+        gunSprite.sprite = data.sprite;
+        ammoInClip = Mathf.Min(ammoInClip, data.clipSize);
+    }
+
+    /* —— getters para UI (opcional) ——
        public float ClipPercent => (float)ammoInClip / data.clipSize;
        public string WeaponName => data.weaponName;
     */
 }
-

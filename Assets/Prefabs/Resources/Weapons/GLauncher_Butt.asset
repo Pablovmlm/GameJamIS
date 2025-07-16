@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683d1e7c5aa2d2a4d84c48610f7a8943, type: 3}
+  m_Name: GLauncher_Butt
+  m_EditorClassIdentifier: 
+  weaponName: GLauncher_Butt
+  sprite: {fileID: -666893117, guid: 1b5ef36946479d941902ff71747e37a6, type: 3}
+  damage: 5
+  fireRate: 2
+  clipSize: 0
+  reloadTime: 0
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 0
+  shotSFX: {fileID: 0}
+  reloadSFX: {fileID: 0}
+  muzzleFlashPrefab: {fileID: 0}

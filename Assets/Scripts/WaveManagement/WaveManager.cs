@@ -19,6 +19,8 @@ public class WaveManager : MonoBehaviour
     int currentWave = 0;
     bool waveInProgress;
 
+    [SerializeField] MiniShop shopUI;   // arrástralo en el Inspector
+
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -57,7 +59,7 @@ public class WaveManager : MonoBehaviour
         waveInProgress = false;
         if (currentWave >= waves.Length)
         {
-            ui.ShowFinishPanel();        
+            ui.ShowFinishPanel();
         }
         else
         {
@@ -69,6 +71,7 @@ public class WaveManager : MonoBehaviour
     {
         ui.SetWaveText(currentWave + 1);
         ui.ShowInterwavePanel();
+        shopUI.OpenShop();                // muestra tienda entre oleadas
     }
 
     public void RestartGame()

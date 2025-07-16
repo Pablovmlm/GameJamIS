@@ -28,7 +28,7 @@ public class Goblin : Enemy
         if (axeHitbox != null)
             axeHitbox.DisableHitbox();  // aseguramos que empieza desactivado
     }
-
+    
     protected override void Move()
     {
         if (isDead) return;
@@ -94,7 +94,6 @@ public class Goblin : Enemy
     {
         axeHitbox.DisableHitbox();
     }
-
 
     public void DieOver() => Destroy(gameObject, 0.05f);
 }

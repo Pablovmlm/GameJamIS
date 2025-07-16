@@ -6,11 +6,11 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private Transform[] spawnPoints;
 
-    int  aliveCount;
-    public int  AliveCount  => aliveCount;
+    int aliveCount;
+    public int AliveCount => aliveCount;
 
     bool isSpawning;
-    public bool IsSpawning  => isSpawning;
+    public bool IsSpawning => isSpawning;
 
     Coroutine spawnRoutine;
 
@@ -35,6 +35,7 @@ public class EnemySpawner : MonoBehaviour
         }
 
         isSpawning = false;
+        CheckWaveEnd();
     }
 
     void Spawn(Enemy prefab)
@@ -46,9 +47,14 @@ public class EnemySpawner : MonoBehaviour
         e.OnDeath += () =>
         {
             aliveCount--;
-            if (aliveCount == 0 && !isSpawning)
-                WaveManager.Instance.OnWaveEnemiesDefeated(); // notifica
+            CheckWaveEnd();
         };
+    }
+
+    void CheckWaveEnd()
+    {
+        if (!isSpawning && aliveCount == 0)
+            WaveManager.Instance.OnWaveEnemiesDefeated();
     }
 }
 

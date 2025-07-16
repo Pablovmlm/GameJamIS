@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683d1e7c5aa2d2a4d84c48610f7a8943, type: 3}
+  m_Name: Shotgun_Barrel
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun_Barrel
+  sprite: {fileID: -634591610, guid: 1b5ef36946479d941902ff71747e37a6, type: 3}
+  damage: 0
+  fireRate: 0
+  clipSize: 6
+  reloadTime: 1.5
+  bulletPrefab: {fileID: 3799410462311443121, guid: 03015fbdf71572e4c8f3b9bd648fadaa, type: 3}
+  bulletSpeed: 25
+  shotSFX: {fileID: 8300000, guid: a18172967ad4133468ad73e2c09b3253, type: 3}
+  reloadSFX: {fileID: 8300000, guid: e7fb9d4107b3424458589f075853c682, type: 3}
+  muzzleFlashPrefab: {fileID: 0}
