@@ -19,7 +19,7 @@ MonoBehaviour:
   clipSize: 5
   reloadTime: 1.7
   partType: 1
-  bulletPrefab: {fileID: 3799410462311443121, guid: 03015fbdf71572e4c8f3b9bd648fadaa, type: 3}
+  bulletPrefab: {fileID: 3799410462311443121, guid: fda65e9715abae543bba33410af45c04, type: 3}
   bulletSpeed: 15
   shotSFX: {fileID: 0}
   reloadSFX: {fileID: 0}

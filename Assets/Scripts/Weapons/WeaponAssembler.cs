@@ -39,7 +39,7 @@ public class WeaponAssembler : MonoBehaviour
             w.damage = butt.damage + barrel.damage;
             w.fireRate = butt.fireRate + barrel.fireRate;
             w.clipSize = butt.clipSize + barrel.clipSize;
-            w.reloadTime = butt.reloadTime + barrel.reloadTime;
+            w.reloadTime =  barrel.reloadTime;
 
             w.sprite = CombineSprites(butt.sprite, barrel.sprite);
 

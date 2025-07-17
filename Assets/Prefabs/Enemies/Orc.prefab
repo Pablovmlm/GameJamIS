@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217935158422124774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.431, y: -0.03, z: 0}
+  m_LocalPosition: {x: 0.37, y: 0.075, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97,11 +97,11 @@ GameObject:
   - component: {fileID: 1326596545395932147}
   - component: {fileID: 7045689183776030382}
   - component: {fileID: 9142126429124701575}
-  - component: {fileID: 12383262155705703}
+  - component: {fileID: 3473809629283948823}
   - component: {fileID: -1737620331091114992}
-  - component: {fileID: 676630203}
+  - component: {fileID: 3236054986232470332}
   m_Layer: 8
-  m_Name: Goblin
+  m_Name: Orc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +185,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 701269357, guid: 1f63bf5d21d55af49b7e14260a4fa3bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -193,10 +193,10 @@ SpriteRenderer:
   m_Size: {x: 2.5, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &12383262155705703
+--- !u!114 &3473809629283948823
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,11 +205,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4752733410177880149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707e4e2ef81773641b9687103c791214, type: 3}
+  m_Script: {fileID: 11500000, guid: 923dea06a2033b04cabdbb2d67d3f343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: b278a480610d4414189544209005f462, type: 2}
-  animator: {fileID: 676630203}
+  data: {fileID: 11400000, guid: ae217daa73ba43b4682e8c7167df77b8, type: 2}
+  animator: {fileID: 3236054986232470332}
   axeHitbox: {fileID: 1255950026038695233}
   axeHit: {fileID: 1758513680914966783}
   stopRange: 0.6
@@ -240,7 +240,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3715999, y: 0.41405666}
   m_EdgeRadius: 0
---- !u!95 &676630203
+--- !u!95 &3236054986232470332
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -250,7 +250,7 @@ Animator:
   m_GameObject: {fileID: 4752733410177880149}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e9d9ab144060b4c468e8f9c68ffff3f9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8228b1cec5dfd084eb98c46c5f6b0d80, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
