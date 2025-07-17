@@ -16,7 +16,8 @@ public class WaveManager : MonoBehaviour
     [SerializeField] WaveData[] waves;          // arrastra tus assets aquí
     [SerializeField] float timeBetweenWaves = 2f;
 
-    int currentWave = 0;
+    
+    public int currentWave = 0;
     bool waveInProgress;
 
     [SerializeField] MiniShop shopUI;   // arrástralo en el Inspector
@@ -28,11 +29,6 @@ public class WaveManager : MonoBehaviour
     }
 
     void Start() => ShowWavePanel();            // Panel inicial “Oleada 1”
-
-    void Update()
-    {
-        // Fin de oleada → todas las muertes las detecta EnemySpawner
-    }
 
     /* ——— BOTÓN CONTINUAR ——— */
     public void StartNextWave()
@@ -70,8 +66,12 @@ public class WaveManager : MonoBehaviour
     void ShowWavePanel()
     {
         ui.SetWaveText(currentWave + 1);
-        ui.ShowInterwavePanel();
-        shopUI.OpenShop();                // muestra tienda entre oleadas
+        ui.ShowInterwavePanel(currentWave);
+        if (currentWave != 0)
+        {
+            shopUI.OpenShop();                // muestra tienda entre oleadas
+        }
+
     }
 
     public void RestartGame()

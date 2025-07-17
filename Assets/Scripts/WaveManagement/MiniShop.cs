@@ -8,13 +8,17 @@ public class MiniShop : MonoBehaviour
     [Header("Referencias")]
     [SerializeField] Weapon weapon;          // tu arma
     [SerializeField] WeaponAssembler assembler;       // ensamblador
-    [SerializeField] GameObject shopPanel;       // panel raíz
+    [SerializeField] public GameObject shopPanel;       // panel raíz
     [SerializeField] Transform grid;            // contenedor botones
     [SerializeField] Button partButtonPrefab;
+    [SerializeField] WaveManager wave;
+    [SerializeField] ShopButton shopButton;
 
     [Header("Todas las piezas posibles")]
     WeaponData[] allParts;           // lista completa
-    
+
+    List<WeaponData> usedParts = new List<WeaponData>(); //lista con las usadas ya
+
     const int OFFER_COUNT = 2;                        // nº de piezas que se ofrecen
 
     void Awake()
@@ -26,18 +30,40 @@ public class MiniShop : MonoBehaviour
     public void OpenShop()
     {
         ClearGrid();
-
         // 1) Elige 2 piezas distintas al azar
-        List<WeaponData> pool = new List<WeaponData>(allParts);
+        // Filtrado según la oleada
+        List<WeaponData> pool;
+        if (wave.currentWave == 1)
+        {
+            pool = new List<WeaponData>();
+            foreach (var part in allParts)
+            {
+                if (part.partType == PartType.Barrel && !usedParts.Contains(part))
+                    pool.Add(part);
+            }
+        }
+        else
+        {
+            pool = new List<WeaponData>();
+            foreach (var part in allParts)
+            {
+                if (!usedParts.Contains(part))
+                    pool.Add(part);
+            }
+        }
+
+
         for (int i = 0; i < OFFER_COUNT && pool.Count > 0; i++)
         {
+            
             int idx = Random.Range(0, pool.Count);
             WeaponData part = pool[idx];
             pool.RemoveAt(idx);
 
             // 2) Crea botón
             Button b = Instantiate(partButtonPrefab, grid);
-            b.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = part.weaponName;
+            ShopButton shopButton = b.GetComponentInChildren<ShopButton>();
+            shopButton.Setup(part);
 
             // 3) Captura la referencia local para el listener
             b.onClick.AddListener(() => BuyPart(part));
@@ -55,6 +81,8 @@ public class MiniShop : MonoBehaviour
         }
 
         shopPanel.SetActive(false);              // oculta UI
+        //Añadimos la pieza a usadas
+        usedParts.Add(part);
         WaveManager.Instance.StartNextWave();    // arranca siguiente oleada
     }
 

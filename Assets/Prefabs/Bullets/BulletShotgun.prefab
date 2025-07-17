@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2676620516331752154}
   - component: {fileID: 7737134901611270984}
   m_Layer: 7
-  m_Name: BulletPistol
+  m_Name: BulletShotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,15 +77,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1985475158, guid: ed3dd716bb63dc7459057b2546288d92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &2389149947369859591
@@ -149,7 +149,7 @@ Animator:
   m_GameObject: {fileID: 3799410462311443121}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 876855aeedef2694aa7b2e61f4d2e79f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1c74014ead701df44b9a170432c2b612, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

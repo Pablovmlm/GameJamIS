@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int maxHP       = 5;
     [SerializeField] float iFrames   = 0.5f;   // invencibilidad tras recibir daño
 
-    int  hp;
+    public int  hp;
     bool invulnerable;
     SpriteRenderer sr;
 

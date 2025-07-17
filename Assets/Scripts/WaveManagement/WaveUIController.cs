@@ -10,6 +10,7 @@ public class WaveUIController : MonoBehaviour
     [SerializeField] GameObject interwavePanel;
     [SerializeField] TextMeshProUGUI waveLabel;
     [SerializeField] Button continueBtn;
+    [SerializeField] MiniShop shop;
 
     [SerializeField] GameObject finishPanel;      // Panel nuevo para el mensaje final
     [SerializeField] Button restartBtn;       // Botón reiniciar
@@ -17,14 +18,16 @@ public class WaveUIController : MonoBehaviour
     void Awake()
     {
         continueBtn.onClick.AddListener(() => WaveManager.Instance.StartNextWave());
+        continueBtn.onClick.AddListener(() => shop.shopPanel.SetActive(false));
         restartBtn.onClick.AddListener(() => WaveManager.Instance.RestartGame());
 
         finishPanel.SetActive(false);  // Oculto el panel final al inicio
     }
 
+
     public void SetWaveText(int wave) => waveLabel.text = $"Wave {wave}";
 
-    public void ShowInterwavePanel()
+    public void ShowInterwavePanel(int currentWave)
     {
         interwavePanel.SetActive(true);
         finishPanel.SetActive(false);

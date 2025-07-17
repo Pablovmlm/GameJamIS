@@ -1932,7 +1932,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_87
+      name: bulletShotgun1
       rect:
         serializedVersion: 2
         x: 416
@@ -1953,7 +1953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_88
+      name: bulletShotgun2
       rect:
         serializedVersion: 2
         x: 432
@@ -1974,7 +1974,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_89
+      name: bulletShotgun3
       rect:
         serializedVersion: 2
         x: 448
@@ -1995,7 +1995,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_90
+      name: bulletShotgun4
       rect:
         serializedVersion: 2
         x: 464
@@ -5922,7 +5922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_277
+      name: bulletM41
       rect:
         serializedVersion: 2
         x: 256
@@ -5943,7 +5943,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_278
+      name: bulletM42
       rect:
         serializedVersion: 2
         x: 272
@@ -5964,7 +5964,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_279
+      name: bulletM43
       rect:
         serializedVersion: 2
         x: 288
@@ -5985,7 +5985,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_280
+      name: bulletM44
       rect:
         serializedVersion: 2
         x: 304
@@ -8085,7 +8085,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_380
+      name: bulletGL1
       rect:
         serializedVersion: 2
         x: 496
@@ -8106,7 +8106,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_381
+      name: bulletGL2
       rect:
         serializedVersion: 2
         x: 512
@@ -8127,7 +8127,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_382
+      name: bulletGL3
       rect:
         serializedVersion: 2
         x: 528
@@ -8148,7 +8148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_Fire_Bullet_Pixel_16x16_00_383
+      name: bulletGL4
       rect:
         serializedVersion: 2
         x: 544
@@ -16814,11 +16814,7 @@ TextureImporter:
       All_Fire_Bullet_Pixel_16x16_00_274: -650238781
       All_Fire_Bullet_Pixel_16x16_00_275: 464987141
       All_Fire_Bullet_Pixel_16x16_00_276: -1685629750
-      All_Fire_Bullet_Pixel_16x16_00_277: -808052372
-      All_Fire_Bullet_Pixel_16x16_00_278: 45366616
-      All_Fire_Bullet_Pixel_16x16_00_279: -1093892921
       All_Fire_Bullet_Pixel_16x16_00_28: 1878653889
-      All_Fire_Bullet_Pixel_16x16_00_280: -766522376
       All_Fire_Bullet_Pixel_16x16_00_281: 574529215
       All_Fire_Bullet_Pixel_16x16_00_282: -4147180
       All_Fire_Bullet_Pixel_16x16_00_283: 16482851
@@ -16929,10 +16925,6 @@ TextureImporter:
       All_Fire_Bullet_Pixel_16x16_00_378: 397560988
       All_Fire_Bullet_Pixel_16x16_00_379: -2143223226
       All_Fire_Bullet_Pixel_16x16_00_38: 2125220107
-      All_Fire_Bullet_Pixel_16x16_00_380: 138593753
-      All_Fire_Bullet_Pixel_16x16_00_381: -1748304335
-      All_Fire_Bullet_Pixel_16x16_00_382: -1786947349
-      All_Fire_Bullet_Pixel_16x16_00_383: -1446598823
       All_Fire_Bullet_Pixel_16x16_00_384: -1792152960
       All_Fire_Bullet_Pixel_16x16_00_385: -751327141
       All_Fire_Bullet_Pixel_16x16_00_386: -126302352
@@ -17388,11 +17380,7 @@ TextureImporter:
       All_Fire_Bullet_Pixel_16x16_00_84: -2065826423
       All_Fire_Bullet_Pixel_16x16_00_85: 374996245
       All_Fire_Bullet_Pixel_16x16_00_86: 570373017
-      All_Fire_Bullet_Pixel_16x16_00_87: -1985475158
-      All_Fire_Bullet_Pixel_16x16_00_88: 480526693
-      All_Fire_Bullet_Pixel_16x16_00_89: 1773463845
       All_Fire_Bullet_Pixel_16x16_00_9: -137464058
-      All_Fire_Bullet_Pixel_16x16_00_90: 987804397
       All_Fire_Bullet_Pixel_16x16_00_91: -2030293728
       All_Fire_Bullet_Pixel_16x16_00_92: 643765549
       All_Fire_Bullet_Pixel_16x16_00_93: -152707850
@@ -17407,6 +17395,18 @@ TextureImporter:
       BulletArrow3: 202889568
       BulletArrow4: 123668385
       BulletArrow5: -203561278
+      bulletGL1: 138593753
+      bulletGL2: -1748304335
+      bulletGL3: -1786947349
+      bulletGL4: -1446598823
+      bulletM41: -808052372
+      bulletM42: 45366616
+      bulletM43: -1093892921
+      bulletM44: -766522376
+      bulletShotgun1: -1985475158
+      bulletShotgun2: 480526693
+      bulletShotgun3: 1773463845
+      bulletShotgun4: 987804397
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

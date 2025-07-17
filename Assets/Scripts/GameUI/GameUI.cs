@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameUI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Weapon weapon;
+    [SerializeField] TextMeshProUGUI currentBullets;
 
+    [SerializeField] PlayerHealth player;
+    [SerializeField] TextMeshProUGUI hp;
+    
     // Update is called once per frame
     void Update()
     {
-        
+        currentBullets.text = $"{weapon.ammoInClip}";
+        hp.text = $"{player.hp}";
     }
 }

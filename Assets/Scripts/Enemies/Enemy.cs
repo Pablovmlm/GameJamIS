@@ -40,9 +40,6 @@ public abstract class Enemy : MonoBehaviour
         if (currentHealth <= 0) Die();
     }
 
-
-    
-    
     public virtual void Die()
     {
         OnDeath?.Invoke();

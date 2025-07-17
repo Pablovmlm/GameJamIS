@@ -16,14 +16,14 @@ public class Weapon : MonoBehaviour
     [SerializeField] AudioSource audioSource;
 
     float nextShotTime;
-    int ammoInClip;
+    public int ammoInClip;
     bool isReloading;
 
     /* ──────────────── INIT ──────────────── */
-    void Awake()
+    void Start()
     {
         // 1) Genera el arma combinada o usa la de fallback
-        data = assembler.Build(fallbackData);
+        data = assembler.Build(assembler.butt, null);
 
         // 2) Aplica sprite y stats
         if (gunSprite) gunSprite.sprite = data.sprite;
@@ -80,13 +80,11 @@ public class Weapon : MonoBehaviour
 
     public void RefreshWeapon()                  // <<— llamado tras la tienda
     {
-        data = assembler.Build(fallbackData);
+        data = assembler.Build(assembler.butt, assembler.barrel);
         gunSprite.sprite = data.sprite;
         ammoInClip = Mathf.Min(ammoInClip, data.clipSize);
     }
 
-    /* —— getters para UI (opcional) ——
-       public float ClipPercent => (float)ammoInClip / data.clipSize;
-       public string WeaponName => data.weaponName;
-    */
+    public WeaponData CurrentData => data;
+    
 }
