@@ -15,13 +15,15 @@ public class ShopButton : MonoBehaviour
 
         if (data.partType == PartType.Barrel)
         {
-            stats.text = $"ClipSize {data.clipSize}\n" +
+            stats.text = $"{data.partType}\n".ToUpper() +
+                         $"ClipSize {data.clipSize}\n" +
                          $"ReloadTime {data.reloadTime}\n" +
                          $"BulletSpeed {data.bulletSpeed}";
         }
         else
         {
-            stats.text = $"Damage {data.damage}\n" +
+            stats.text = $"{data.partType}\n".ToUpper() +
+                         $"Damage {data.damage}\n" +
                          $"FireRate {data.fireRate}";
         }
         

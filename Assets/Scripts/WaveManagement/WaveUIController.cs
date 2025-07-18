@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 //Acordarse de esto
 using UnityEngine.UI;
 
@@ -14,12 +16,14 @@ public class WaveUIController : MonoBehaviour
 
     [SerializeField] GameObject finishPanel;      // Panel nuevo para el mensaje final
     [SerializeField] Button restartBtn;       // Botón reiniciar
+    [SerializeField] Button goToMenu;
 
     void Awake()
     {
         continueBtn.onClick.AddListener(() => WaveManager.Instance.StartNextWave());
         continueBtn.onClick.AddListener(() => shop.shopPanel.SetActive(false));
         restartBtn.onClick.AddListener(() => WaveManager.Instance.RestartGame());
+        goToMenu.onClick.AddListener(() => SceneManager.LoadScene("MainMenu"));
 
         finishPanel.SetActive(false);  // Oculto el panel final al inicio
     }

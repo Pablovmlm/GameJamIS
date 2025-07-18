@@ -1512,7 +1512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_67
+      name: ak1
       rect:
         serializedVersion: 2
         x: 32
@@ -1533,7 +1533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_68
+      name: ak2
       rect:
         serializedVersion: 2
         x: 48
@@ -1806,7 +1806,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_81
+      name: p901
       rect:
         serializedVersion: 2
         x: 64
@@ -1827,7 +1827,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_82
+      name: p902
       rect:
         serializedVersion: 2
         x: 80
@@ -2205,7 +2205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guns_100
+      name: banana
       rect:
         serializedVersion: 2
         x: 192
@@ -2236,10 +2236,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      ak1: -359063846
+      ak2: 730742269
+      banana: 1661830230
       guns_0: -1228114414
       guns_1: 410216128
       guns_10: 1126722803
-      guns_100: 1661830230
       guns_11: -588511727
       guns_12: -1761724488
       guns_13: -1369947005
@@ -2301,8 +2303,6 @@ TextureImporter:
       guns_64: 730729765
       guns_65: -513384210
       guns_66: 651561470
-      guns_67: -359063846
-      guns_68: 730742269
       guns_69: 1313821107
       guns_7: 1279748282
       guns_70: -634591610
@@ -2317,8 +2317,6 @@ TextureImporter:
       guns_79: -226374250
       guns_8: 277647788
       guns_80: -1711423707
-      guns_81: 1818062657
-      guns_82: -2065996888
       guns_83: 485100435
       guns_84: 273049681
       guns_85: -1621191927
@@ -2337,6 +2335,8 @@ TextureImporter:
       guns_97: 1955129846
       guns_98: -2080969011
       guns_99: -2091561635
+      p901: 1818062657
+      p902: -2065996888
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

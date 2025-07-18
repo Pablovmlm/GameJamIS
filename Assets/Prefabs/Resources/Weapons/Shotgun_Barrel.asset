@@ -21,6 +21,6 @@ MonoBehaviour:
   partType: 1
   bulletPrefab: {fileID: 3799410462311443121, guid: 70f5e7d62a3c89e4bbd326e8fa76c98e, type: 3}
   bulletSpeed: 25
-  shotSFX: {fileID: 8300000, guid: a18172967ad4133468ad73e2c09b3253, type: 3}
-  reloadSFX: {fileID: 8300000, guid: e7fb9d4107b3424458589f075853c682, type: 3}
+  shotSFX: {fileID: 8300000, guid: 8c01242b7347c964babc1299e764010b, type: 3}
+  reloadSFX: {fileID: 8300000, guid: ac925a05634e2ec4aa468a9841767127, type: 3}
   muzzleFlashPrefab: {fileID: 0}
