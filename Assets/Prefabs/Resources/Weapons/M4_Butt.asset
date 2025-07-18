@@ -16,8 +16,9 @@ MonoBehaviour:
   sprite: {fileID: -513384210, guid: 1b5ef36946479d941902ff71747e37a6, type: 3}
   damage: 1
   fireRate: 10
-  clipSize: 0
+  clipSize: 10
   reloadTime: 0
+  partType: 0
   bulletPrefab: {fileID: 0}
   bulletSpeed: 0
   shotSFX: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SuperOrc
   m_EditorClassIdentifier: 
   enemyName: SuperOrc
-  maxHealth: 10
+  maxHealth: 7
   moveSpeed: 4
   damage: 3
   sprite: {fileID: -16280662, guid: 92b01320995ec4c479e6978ad9a11e35, type: 3}

@@ -14,10 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies:
   - prefab: {fileID: 12383262155705703, guid: 03c004bbcb7f5d543abd47dfc8c6a0b0, type: 3}
-    amount: 1
+    amount: 12
   - prefab: {fileID: 3473809629283948823, guid: ea9e324042b63bc4a830577db2ab9baf, type: 3}
-    amount: 1
-  - prefab: {fileID: 3041765610348402582, guid: 6df041dada480ac48b9c15ced5a9721b, type: 3}
-    amount: 1
+    amount: 6
   spawnInterval: 0.8
   duration: 10

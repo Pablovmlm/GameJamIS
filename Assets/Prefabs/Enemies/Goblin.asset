@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Goblin
   m_EditorClassIdentifier: 
   enemyName: Goblin
-  maxHealth: 3
+  maxHealth: 5
   moveSpeed: 3
   damage: 1
   sprite: {fileID: -891057446, guid: 8a74dbab9f936f24788799c473e79054, type: 3}

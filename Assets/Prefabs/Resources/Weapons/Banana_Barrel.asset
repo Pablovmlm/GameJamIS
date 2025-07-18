@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Banana?
   sprite: {fileID: 1661830230, guid: 1b5ef36946479d941902ff71747e37a6, type: 3}
-  damage: 3
-  fireRate: 6
+  damage: 2
+  fireRate: 3
   clipSize: 5
   reloadTime: 1
   partType: 1

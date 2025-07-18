@@ -15,7 +15,7 @@ MonoBehaviour:
   weaponName: P90_Butt
   sprite: {fileID: 1818062657, guid: 1b5ef36946479d941902ff71747e37a6, type: 3}
   damage: 1
-  fireRate: 7
+  fireRate: 15
   clipSize: 0
   reloadTime: 0
   partType: 0

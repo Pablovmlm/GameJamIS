@@ -17,6 +17,7 @@ public class WaveUIController : MonoBehaviour
     [SerializeField] GameObject finishPanel;      // Panel nuevo para el mensaje final
     [SerializeField] Button restartBtn;       // Botón reiniciar
     [SerializeField] Button goToMenu;
+    [SerializeField] Button exit;
 
     void Awake()
     {
@@ -24,6 +25,7 @@ public class WaveUIController : MonoBehaviour
         continueBtn.onClick.AddListener(() => shop.shopPanel.SetActive(false));
         restartBtn.onClick.AddListener(() => WaveManager.Instance.RestartGame());
         goToMenu.onClick.AddListener(() => SceneManager.LoadScene("MainMenu"));
+        exit.onClick.AddListener(() => SceneManager.LoadScene("MainMenu"));
 
         finishPanel.SetActive(false);  // Oculto el panel final al inicio
     }

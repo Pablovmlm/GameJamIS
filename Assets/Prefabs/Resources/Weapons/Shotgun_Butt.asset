@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Shotgun_Butt
   sprite: {fileID: 1313821107, guid: 1b5ef36946479d941902ff71747e37a6, type: 3}
-  damage: 5
-  fireRate: 2
+  damage: 4
+  fireRate: 3
   clipSize: 0
   reloadTime: 0
+  partType: 0
   bulletPrefab: {fileID: 0}
   bulletSpeed: 0
   shotSFX: {fileID: 0}
